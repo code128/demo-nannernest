@@ -1,0 +1,33 @@
+<!doctype html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nannernest (show optimal slice pattern)</title>
+    <link rel="stylesheet" href="https://unpkg.com/awsm.css/dist/awsm.min.css">
+</head>
+
+<body>
+    <header>
+        <h1>Process a picture of a banana and a piece of bread to derive the optimal nanna slice pattern.</h1>
+    </header>
+    <main>
+        <form method="post" enctype=multipart/form-data> 
+            <label for="file">Upload your image</label>
+            <input type="file" name="file" id="file">
+            <input type="submit" value="Upload">
+        </form>
+    <p>Your picture should look something like this:</p>
+    <img src="https://raw.githubusercontent.com/EthanRosenthal/nannernest/master/tests/assets/test_image.jpg"/>
+    </main>
+    <footer>
+        <p>
+            <h2>Pro tip:</h2>
+            You can provide the URL of an image on the web to process with the <code>url</code> query
+            parameter.
+            <br>
+            For example clicking this <a href="/?url=https://raw.githubusercontent.com/EthanRosenthal/nannernest/master/tests/assets/test_image.jpg">link</a>
+            <h3>Note: This is unoptimized and will take ~45 seconds to process</h3>
+            <h3>All the cool stuff here comes from this <a href="https://www.ethanrosenthal.com/2020/08/25/optimal-peanut-butter-and-banana-sandwiches/">madman</a></h3>
+        </p>
+    </footer>
+</body>
